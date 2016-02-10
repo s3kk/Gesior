@@ -1,0 +1,16 @@
+&Aacute;  Á              &Agrave;  À            &Eacute;  É              &Egrave;  È
+&Iacute;  Í              &Igrave;  Ì            &Oacute;  Ó              &Ograve;  Ò
+&Uacute;  Ú              &Ugrave;  Ù            &aacute;  á              &agrave;  à
+&eacute;  é              &egrave;  è            &iacute;  í              &igrave;  ì
+&oacute;  ó              &ograve;  ò            &uacute;  ú             &ugrave;   ù
+  &Auml;  Ä               &Acirc;  Â              &Euml;  Ë               &Ecirc;  Ê
+  &Iuml;  Ï               &Icirc;  Î              &Ouml;  Ö               &Ocirc;  Ô
+  &Uuml;  Ü               &Ucirc;  Û              &auml;  ä               &acirc;  â
+  &euml;  ë               &ecirc;  ê              &iuml;  ï               &icirc;  î
+  &ouml;  ö               &ocirc;  ô              &uuml;  ü               &ucirc;  û
+&Atilde;  Ã               &aring;  å            &Ntilde;  Ñ               &Aring;  Å
+&Otilde;  Õ              &Ccedil;  Ç            &atilde;  ã              &ccedil;  ç
+&ntilde;  ñ              &Yacute;  Ý            &otilde;  õ              &yacute;  ý
+&Oslash;  Ø                &yuml;  ÿ            &oslash;  ø               &THORN;  Þ
+   &ETH;  Ð               &thorn;  þ               &eth;  ð               &AElig;  Æ
+&szlig;   ß               &aelig;  æ

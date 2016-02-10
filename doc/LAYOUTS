@@ -1,0 +1,77 @@
+PHP Code: $layout_name
+<?PHP echo $layout_name; ?> - Layout root path 
+Example
+http://example.com/layouts/layout/
+Example 2
+ 
+<img src="<?PHP echo $layout_name; ?>/images/logo.jpg" alt="Logo" /> --> Load logo from layouts/name/images/
+
+PHP Code: $title
+<?PHP echo $title ?> - Page Title Head
+Example
+<html>
+<head>
+<meta http-equiv="content-language" content="pl">
+<title><?PHP echo $title ?></title>
+</head>
+<body>
+</body>
+</html>
+
+PHP Code: $main_content
+<?PHP echo $main_content; ?> - Show content
+Example
+<div class="content">
+<?PHP echo $main_content; ?>
+</div>
+
+PHP Code: $topic
+<?PHP echo $topic; ?> - Show Topic Name
+Example
+<div class="subpage_title">
+<?PHP echo $topic; ?>
+</div>
+
+Example layout.php
+
+<html>
+<head>
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Reply-to" content="webmaster@example.com" />
+<meta name="Keywords" content="Keywords...." />
+<meta name="Description" content="Description..." />
+<meta name="Author" content="Author...." />
+<title><?PHP echo $title ?></title>
+<link rel="stylesheet" type="text/css" href="<?PHP echo $layout_name; ?>/style.css" />
+</head>
+<body>
+<img src="<?PHP echo $layout_name; ?>/images/logo.jpg" alt="Logo" />
+
+<div class="subpage_title">
+<?PHP echo $topic; ?>
+</div>
+
+<div class="content">
+<?PHP echo $main_content; ?>
+</div>
+
+</div>
+</body>
+</html>
+
+Example config_layout.ini
+
+darkborder = "#9E7B5D"
+lightborder = "#B09165"
+vdarkborder = "#845B3B"
+news_title_color = "white"
+logo_monster = "Frost Dragon"
+
+HTML Tutorials:
+http://www.w3schools.com/html/default.asp
+CSS Tutorials:
+http://www.w3schools.com/css/default.asp
+PHP Tutorials:
+http://www.w3schools.com/php/default.asp
+http://php.net/
