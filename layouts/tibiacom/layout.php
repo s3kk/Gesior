@@ -294,7 +294,7 @@ echo "<a href='?subtopic=polls'>
   <div id='submenu_tradeoff' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
     <div class='LeftChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
     <div id='ActiveSubmenuItemIcon_whoisonline' class='ActiveSubmenuItemIcon' style='background-image:url(<?PHP echo $layout_name; ?>/images/menu/icon-activesubmenu.gif);'></div>
-    <div class='SubmenuitemLabel'><font color="red">Trade Off</font></div>
+    <div class='SubmenuitemLabel'><font color="yellow">Trade Off</font></div>
     <div class='RightChain' style='background-image:url(<?PHP echo $layout_name; ?>/images/general/chain.gif);'></div>
   </div>
 </a>
@@ -632,13 +632,9 @@ $time = $time_end - $time_start;
 		  ?></div>
         </div>
 
-  <div id="Themeboxes">
-          
-  <div id="NewcomerBox" class="Themebox" style="background-image:url(<?PHP echo $layout_name; ?>/images/themeboxes/newcomer/newcomerbox.gif);">
-    <div class="ThemeboxButton" onClick="BigButtonAction('?subtopic=createaccount')" onMouseOver="MouseOverBigButton(this);" onMouseOut="MouseOutBigButton(this);" style="background-image:url(<?PHP echo $layout_name; ?>/images/buttons/sbutton.gif);"><div class="BigButtonOver" style="background-image:url(<?PHP echo $layout_name; ?>/images/buttons/sbutton_over.gif);"></div>
-      <div class="ButtonText" style="background-image:url(<?PHP echo $layout_name; ?>/images/buttons/_sbutton_jointibia.gif);"></div>
-    </div>
-    <div class="Bottom" style="background-image:url(<?PHP echo $layout_name; ?>/images/general/box-bottom.gif);"></div>
+  <div id="Themeboxes">   
+  <div id="NewcomerBox" class="Themebox">
+    <?php include($layout_name.'/widget_rank.php'); ?>
   </div>
 <?PHP
 if($config['site']['screenoftheday'] == 1) 
@@ -673,7 +669,6 @@ echo '<div id="CurrentPollBox" class="Themebox" style="background-image:url('.$l
     <div class="Bottom" style="background-image:url('.$layout_name.'/images/general/box-bottom.gif);"></div>
     </div>';
 ?>
-<?php include($layout_name.'/widget_rank.php'); ?>
         </div>
       </div>
      </div>
