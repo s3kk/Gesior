@@ -1,0 +1,1 @@
+UPDATE `accounts` SET `premium_points` = `accounts`.`backup_points` WHERE `backup_points` > 0;

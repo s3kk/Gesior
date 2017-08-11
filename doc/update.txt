@@ -1,0 +1,8 @@
+here I will add queries required for (my) updates.
+execute it all from lowest number that is higher than rev used by you before update
+
+rev 70+;
+ALTER TABLE `z_forum` ADD `icon_id` TINYINT( 4 ) NOT NULL DEFAULT '1';
+
+rev 63+
+ALTER TABLE `players`  ADD `show_outfit` TINYINT( 4 ) NOT NULL DEFAULT '1', ADD `show_eq` TINYINT( 4 ) NOT NULL DEFAULT '1', ADD `show_bars` TINYINT( 4 ) NOT NULL DEFAULT '1', ADD `show_skills` TINYINT( 4 ) NOT NULL DEFAULT '1',  ADD `show_quests` TINYINT( 4 ) NOT NULL DEFAULT '1' ;
